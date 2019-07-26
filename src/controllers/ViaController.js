@@ -9,6 +9,7 @@ const formatBranchName = (name) => {
         switch (initial) {
             case 'F': return 'feature'
             case 'B': return 'bugfix'
+            case 'R': return 'release'
             default: null
         }
     }
